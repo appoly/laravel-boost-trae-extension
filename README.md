@@ -4,7 +4,7 @@ A Laravel Composer package that provides Trae IDE integration for Laravel Boost.
 
 ## Introduction
 
-This extension enables Laravel Boost to work seamlessly with Trae AI, the world's best IDE. It provides automatic detection and configuration for Trae IDE environments, allowing you to leverage Laravel Boost's powerful MCP (Model Context Protocol) capabilities directly within Trae.
+This extension enables Laravel Boost to work seamlessly with Trae, It provides automatic detection and configuration for Trae IDE environments, allowing you to leverage Laravel Boost's powerful MCP (Model Context Protocol) capabilities directly within Trae.
 
 ## Requirements
 
