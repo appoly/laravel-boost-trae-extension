@@ -1,0 +1,52 @@
+{
+    "name": "appoly/laravel-boost-trae-extension",
+    "description": "Laravel Boost addon that provides support for Trae IDE",
+    "keywords": [
+        "laravel",
+        "boost",
+        "trae"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Appoly",
+            "homepage": "https://github.com/Appoly"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Appoly/laravel-boost-trae-extension/issues",
+        "source": "https://github.com/Appoly/laravel-boost-trae-extension"
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.49.0|^11.45.3|^12.28.1",
+        "laravel/boost": "^1.4"
+    },
+    "require-dev": {
+        "laravel/pint": "1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appoly\\LaravelBoostTrae\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Appoly\\LaravelBoostTrae\\TraeServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "pint": "vendor/bin/pint",
+        "pint-test": "vendor/bin/pint --test"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
