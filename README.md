@@ -40,9 +40,6 @@ More information can be found in the [Laravel Boost documentation](https://larav
 ## Features
 
 - **Automatic Trae Detection**: Automatically detects Trae IDE installations on macOS and Windows
-- **MCP Configuration**: Seamlessly configures Model Context Protocol for Trae IDE
-- **Project-Level Support**: Supports project-specific configurations through `.trae` directory detection
-- **Cross-Platform**: Works on macOS and Windows (Linux support coming soon)
 
 ## Configuration
 
