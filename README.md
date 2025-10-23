@@ -35,7 +35,7 @@ During installation, you will be prompted to select an environment. The availabl
 
 - `trae` - For Trae IDE
 
-More information can be found in the [Laravel Boost documentation](https://laravel.com/docs/boost).
+More information can be found in the [Laravel Boost documentation](https://github.com/laravel/boost).
 
 ## Features
 
